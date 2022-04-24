@@ -1,0 +1,27 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.content {
+  padding: 3em 0;
+  display: flex;
+  justify-content: center;
+  box-sizing: border-box;
+}
+
+.tasksList {
+  display: flex;
+  flex-direction: column;
+}
+
+.deleteIcon {
+  cursor: pointer;
+  margin-right: 1em;
+  padding: 0 0.5em;
+  &:hover {
+    background: rgba(255, 255, 255, 0.5);
+    transition: 0.2s ease-in-out all;
+  }
+}
